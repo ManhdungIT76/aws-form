@@ -1,8 +1,8 @@
 <?php
 // Thiết lập thông tin kết nối đến database
 $servername = "db-server-lab7.c56eu0aaif6j.us-east-1.rds.amazonaws.com";
-$db_username = "admin";
-$db_password = "dung123123";
+$db_username = "user1";
+$db_password = "12345678";
 $dbname = "myDB";
 
 // Tạo kết nối đến database
