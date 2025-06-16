@@ -6,7 +6,8 @@ $db_password = "12345678";
 $dbname = "myDB";
 
 // Tạo kết nối đến database
-$conn = new mysqli($servername, $db_username, $db_password, $dbname);
+$conn = new mysqli("db-server-lab7", "admin", "dung123123", "db-server-lab7");
+
 
 // Kiểm tra kết nối
 if ($conn->connect_error) {
