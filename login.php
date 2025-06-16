@@ -1,9 +1,9 @@
 <?php
 // Thiết lập thông tin kết nối đến database
-$servername = "database-server-lab7.cocgl5wbv5ga.ap-southeast-1.rds.amazonaws.com";
+$servername = "db-server-lab7.c56eu0aaif6j.us-east-1.rds.amazonaws.com";
 $db_username = "admin";
-$db_password = "12345678";
-$dbname = "myDB";
+$db_password = "dung123123";
+$dbname = "db-server-lab7";
 
 // Tạo kết nối đến database
 $conn = new mysqli($servername, $db_username, $db_password, $dbname);
